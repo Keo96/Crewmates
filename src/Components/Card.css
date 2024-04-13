@@ -1,0 +1,62 @@
+.Card {
+    background: #2C2F33;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  
+  .Card:hover {
+    transform: scale(1.05);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .name,
+  .speed,
+  .color {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  
+  .link {
+    text-align: center;
+    color:white;
+    border:2px solid rgb(206, 206, 206);
+    padding:6px;
+    border-radius: 6px;
+    background-color:rgb(71, 71, 71);
+    text-decoration: none;
+  } 
+  
+  .link2 {
+    display: inline-block;
+    background: #7289DA;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .link:hover {
+    background: #2c2d31;
+  }
+
+.crewmatePic{
+    width: 170px;
+    height: 170px;
+}
